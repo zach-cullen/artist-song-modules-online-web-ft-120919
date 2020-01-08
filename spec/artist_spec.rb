@@ -1,4 +1,5 @@
 require_relative './spec_helper'
+require 'pry'
 
 describe Artist do
   before(:each) do
@@ -14,6 +15,7 @@ describe Artist do
 
   it "can be initialized" do
     expect(artist).to be_an_instance_of(Artist)
+    binding.pry
   end
 
   it "can have a name" do
