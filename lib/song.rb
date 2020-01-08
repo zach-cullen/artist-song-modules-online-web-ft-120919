@@ -10,7 +10,7 @@ class Song
   @@songs = []
 
   def initialize
-    @artist = []
+    @songs = []
   end
 
   def self.find_by_name(name)
