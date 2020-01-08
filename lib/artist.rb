@@ -1,4 +1,5 @@
 require 'pry'
+require ''
 
 class Artist
   extend Memorable::ClassMethods
