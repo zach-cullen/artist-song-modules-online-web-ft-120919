@@ -6,6 +6,7 @@ class Artist
   attr_reader :songs
 
   extend Memorable::ClassMethods
+  extend Memoriable::InstanceMethods
 
   @@artists = []
 
