@@ -12,7 +12,7 @@ describe Artist do
   # http://betterspecs.org/#let
   let!(:artist){Artist.new}
 
-  binding.pry
+
 
   it "can be initialized" do
     expect(artist).to be_an_instance_of(Artist)
