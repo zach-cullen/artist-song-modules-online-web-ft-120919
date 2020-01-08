@@ -13,9 +13,7 @@ describe Artist do
   let!(:artist){Artist.new}
 
 
-
   it "can be initialized" do
-    binding.pry
     expect(artist).to be_an_instance_of(Artist)
   end
 
